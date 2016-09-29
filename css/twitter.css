@@ -1,0 +1,25 @@
+body {
+  padding: 60px;
+}
+
+.search-box {
+  border-radius: 20px;
+}
+
+.navbar form button {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+}
+
+.response-options li {
+  padding-right: 50px;
+}
+
+.response-options
+.glyphicon-arrow-left,
+.glyphicon-refresh,
+.glyphicon-heart,
+.glyphicon-option-horizontal {
+color: grey;
+}
