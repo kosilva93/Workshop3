@@ -7,7 +7,8 @@
   <title>Twitter</title>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
-
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <!--- Custom CSS --->
   <link href="css/twitter.css" rel="stylesheet">
 </head>
@@ -16,15 +17,16 @@
     <div class="container">
       <!--- The navbar header is for smaller screen purpose --->
       <div class="navbar-header">
-        <button type = "button" class = "navbar-toggle"
-        data-toggle = "collapse" data-target = "#navbar-options-collapse">
-        <span class = "sr-only">Toggle navigation</span>
-        <span class = "icon-bar"></span>
-        <span class = "icon-bar"></span>
-        <span class = "icon-bar"></span>
+        <button class="navbar-toggle" type="button"
+        data-toggle="collapse" data-target="#navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand" href="#"></a>
     </div>
-    <div class="collapse navbar-collapse" id="navbar-options-collapse">
+    <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-left">
         <li>
           <a href="#"><span class="glyphicon glyphicon-home"></span>
@@ -58,7 +60,7 @@
         <div class="btn-group" role="group">
           <button type="button" class="btn btn-default navbar-btn">
             <span class="glyphicon glyphicon-edit"></span>
-            Twiter
+            Tweet
           </button>
         </div>
       </div>
@@ -86,7 +88,7 @@
     <!--- Center --->
     <div class="col-md-6">
       <div class="panel panel-default">
-        <div class="panel-body fb-status-update">
+        <div class="panel-body">
           <div class="row">
             <div class="col-md-3">
               <div class="media-left media-top">
@@ -164,7 +166,7 @@
               </ul>
             </div>
           </div>
-        </div> <!--- Satus Update #1 --->
+        </div>
         <div class="panel-footer">
           <div class="media media-left media-top">
             PIC
